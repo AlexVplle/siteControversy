@@ -3,12 +3,16 @@
     text-decoration: transparent;
 }
 
+body{
+    background-color: #000000d5;
+}
+
 header{
     display: flex;
     justify-content: space-between;
 
-    color: #000000;
-    background-color: #ffffff;
+    color: #21293E;
+    background-color: #EEC94D;
 }
 
 header > h1{
@@ -16,15 +20,17 @@ header > h1{
 }
 
 nav{
-    background-color: #000000;
+    background-color: #1D8CD1;
     position: sticky;
     display: flex;
     justify-content: space-around;
 }
 
 nav > div{
-    border: solid #ffffff;
+    border: solid #EEC94D;
     border-radius: 15px;
+
+    background-color: #000000;
 
     margin: 5px;
     padding: 5px;
@@ -34,5 +40,27 @@ nav a{
     font-size: 20px;
     display: block;
     color: #ffffff;
+}
+
+#title{
+    background-color: #EEC94D;
+    text-decoration: underline solid;
+    text-align: center;
+    padding: 5px;
+}
+
+#introductionText{
+    color: #ffffff;
+    background-color: #1D8CD1;
+    border: double;
+    margin: 25px;
+    padding: 10px;
+    
+    text-align: center;
+}
+
+#introductionText span{
+    font-weight: bold;
+    text-decoration: underline solid;
 }
 
