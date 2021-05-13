@@ -16,7 +16,7 @@ header{
     justify-content: space-between;
 
     color: #21293E;
-    background-color: #EEC94D;
+    background-color: #ffffff;
 }
 
 header > h1{
@@ -47,7 +47,7 @@ nav a{
 }
 
 #title{
-    background-color: #EEC94D;
+    background-color: #ffffff;
     text-decoration: underline solid;
     text-align: center;
     padding: 5px;
@@ -69,8 +69,8 @@ nav a{
 }
 
 #originControversy{
-    background-color: #1D8CD1;
-    color: #ffd900;
+    background-color: #000000;
+    color: #ffffff;
     padding: 10px;
     text-align: left;
     border: #000000 solid;
@@ -82,9 +82,9 @@ nav a{
 }
 
 #whyControversy{
-    color: #1D8CD1;
+    color: #000000;
     text-align: right;
-    background-color: #ffd900;
+    background-color: #ffffff;
     padding: 10px;
     border-bottom: #000000 solid;
 }

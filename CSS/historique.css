@@ -16,7 +16,7 @@ header{
     justify-content: space-between;
 
     color: #21293E;
-    background-color: #EEC94D;
+    background-color: #ffffff;
 }
 
 header > h1{
@@ -46,3 +46,12 @@ nav a{
     display: block;
 }
 
+#title{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 5px;
+}
+
+#title h1{
+    text-decoration: underline solid;
+}
