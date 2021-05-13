@@ -4,7 +4,11 @@
 }
 
 body{
-    background-color: #000000d5;
+    background-color: #000000b0;
+}
+
+a{
+    color: #ffffff;
 }
 
 header{
@@ -22,6 +26,7 @@ header > h1{
 nav{
     background-color: #1D8CD1;
     position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-around;
 }
@@ -39,7 +44,6 @@ nav > div{
 nav a{  
     font-size: 20px;
     display: block;
-    color: #ffffff;
 }
 
 #title{
@@ -64,3 +68,41 @@ nav a{
     text-decoration: underline solid;
 }
 
+#originControversy{
+    background-color: #1D8CD1;
+    color: #ffd900;
+    padding: 10px;
+    text-align: left;
+    border: #000000 solid;
+}
+
+#originControversy h2{
+    text-decoration: underline solid;
+    padding-bottom: 10px;
+}
+
+#whyControversy{
+    color: #1D8CD1;
+    text-align: right;
+    background-color: #ffd900;
+    padding: 10px;
+    border-bottom: #000000 solid;
+}
+
+#whyControversy h2{
+    text-decoration: underline solid;
+    padding-bottom: 10px;
+}
+
+footer{
+    color: #ffffff;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: underline solid;
+}
+
+#logoESIEE{
+    margin: 5px;
+}
