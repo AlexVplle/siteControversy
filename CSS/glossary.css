@@ -3,6 +3,10 @@
     text-decoration: transparent;
 }
 
+a{
+    color: #ffffff;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -16,15 +20,18 @@ header > h1{
 }
 
 nav{
-    background-color: #000000;
+    background-color: #1D8CD1;
     position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-around;
 }
 
 nav > div{
-    border: solid #ffffff;
+    border: solid #EEC94D;
     border-radius: 15px;
+
+    background-color: #000000;
 
     margin: 5px;
     padding: 5px;
@@ -33,6 +40,6 @@ nav > div{
 nav a{  
     font-size: 20px;
     display: block;
-    color: #ffffff;
 }
+
 
