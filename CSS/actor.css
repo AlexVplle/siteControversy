@@ -42,3 +42,21 @@ nav a{
     display: block;
 }
 
+#title{
+    background-color: #ffffff;
+    text-decoration: underline solid;
+    text-align: right;
+    padding: 5px;
+}
+
+main :nth-of-type(2n+2){
+    background-color: #EEC94D;
+    text-align: right;
+}
+
+main div{
+    background-color: #1D8CD1;
+    text-align: left;
+    display: flex;
+}
+

@@ -69,7 +69,7 @@ nav a{
 }
 
 #originControversy{
-    background-color: #000000;
+    background-color: rgb(0, 132, 255);
     color: #ffffff;
     padding: 10px;
     text-align: left;
@@ -84,7 +84,7 @@ nav a{
 #whyControversy{
     color: #000000;
     text-align: right;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 0, 0.897);
     padding: 10px;
     border-bottom: #000000 solid;
 }
