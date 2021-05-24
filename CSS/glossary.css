@@ -3,8 +3,16 @@
     text-decoration: transparent;
 }
 
+body{
+    background-color: #000000b0;
+}
+
 a{
     color: #ffffff;
+}
+
+p{
+    line-height: 30px;
 }
 
 header{
@@ -25,6 +33,8 @@ nav{
     top: 0;
     display: flex;
     justify-content: space-around;
+    border-top: #000000 solid;
+    border-bottom: #000000 solid;
 }
 
 nav > div{
@@ -40,6 +50,41 @@ nav > div{
 nav a{  
     font-size: 20px;
     display: block;
+}
+
+#title{
+    background-color: #ffffff;
+    text-decoration: underline solid;
+    text-align: center;
+    padding: 5px;
+    border-bottom: #000000 solid;
+}
+
+table{
+    margin: 20px auto;
+    border: #000000 solid;
+    background-color: #1D8CD1;
+}
+
+td{
+    padding: 5px;
+    background-color: #EEC94D;
+    border: #000000 solid;
+    text-align: center;
+}
+
+footer{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5px;
+}
+
+footer a{
+    text-decoration: underline solid;
+}
+
+#logoESIEE{
+    margin: 5px;
 }
 
 

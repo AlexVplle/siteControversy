@@ -54,48 +54,31 @@ nav a{
 
 #title{
     background-color: #ffffff;
-    text-decoration: underline solid;
     text-align: center;
     padding: 5px;
     border-bottom: #000000 solid;
 }
 
-main :nth-of-type(2n){
-    background-color: #EEC94D;
+#title h1{
+    text-decoration: underline solid;
 }
 
 main > div{
     background-color: #1D8CD1;
-    display: flex;
     align-items: center;
     border-bottom: #000000 solid;
     justify-content: space-between;
+    padding: 10px;
+}
+
+main div:nth-of-type(3n){
+    background-color: #EEC94D;
+    padding: 10px;
 }
 
 main h2{
-    text-align: center;
     margin: 5px;
     text-decoration: underline double #000000;
-}
-
-p{
-    margin: 20px;
-}
-
-figure{
-    text-align: center;
-    font-weight: bold;
-    margin: 10px;
-}
-
-div figure img{
-    border: #000000 solid;
-    width: 100px;
-}
-
-#groupPhoto{
-    width: 1000px;
-    border: #000000 solid;
 }
 
 footer{
